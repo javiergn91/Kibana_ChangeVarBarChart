@@ -11,3 +11,18 @@
     pointer-events: none;
     color: white;			
 }
+
+.chartName {
+    float: left;
+    padding: 10px;
+    padding-top: 10px;
+    width: 300px;
+}
+
+.barChartContainer {
+    float: left;
+}
+
+.chartContainer {
+    float: left;
+}
