@@ -34,6 +34,8 @@ class ChartVis {
     }
 
     async render(visData, status) {
+        console.log(visData);
+
         //Indice de la columna de tiempo
         var timestampCol = "";
 
@@ -61,7 +63,9 @@ class ChartVis {
                     splitParams.push(column.id);
             }
         });
-
+        console.log(timestampCol);
+        console.log(statusCol);
+        console.log(splitParams);
         //Si splitParams es mayor a 0, entonces se formaran llaves 
         //que seran los indices del arreglo datasets, indicando las divisiones.
         var keys = new Array();
